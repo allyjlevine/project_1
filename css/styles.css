@@ -22,12 +22,17 @@ div.container.body {
   margin-right: 200px;*/
 }
 
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9 {
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
   border-color: black;
   border: 2px;
   border-style: solid;
 }
 
-div.recommendations {
-  float:left;
+div.customer {
+  border-style: solid;
+}
+
+p {
+  font-family: "Myriad Pro";
+  /*font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 }
