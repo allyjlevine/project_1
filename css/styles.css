@@ -1,0 +1,33 @@
+div.header {
+  background-color: blue;
+  height: 50px;
+}
+
+div.header.container {
+  text-align: right;
+  margin-right: 70px;
+}
+
+nav.navbar {
+  height: 100px;
+  background-color: lightblue;
+}
+
+div.container {
+  text-align: center;
+}
+
+div.container.body {
+  /*margin-left: 200px;
+  margin-right: 200px;*/
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-6, .col-md-8, .col-md-9 {
+  border-color: black;
+  border: 2px;
+  border-style: solid;
+}
+
+div.recommendations {
+  float:left;
+}
