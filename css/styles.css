@@ -1,6 +1,16 @@
+p h1 h2 h3 h4 h5 {
+font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 div.header {
-  background-color: blue;
-  height: 50px;
+  background-color: #2191EA;
+  height: 44px;
+}
+
+.header p {
+  font-family: "Myriad Pro";
+  font-size: 14px;
+  color: white;
 }
 
 div.header.container {
@@ -10,16 +20,13 @@ div.header.container {
 
 nav.navbar {
   height: 100px;
-  background-color: lightblue;
+  background-color: #134975;
 }
 
-div.container {
-  text-align: center;
-}
-
-div.container.body {
-  /*margin-left: 200px;
-  margin-right: 200px;*/
+div.dashboard {
+  background-color: #33cc66;
+  border-radius: 7px;
+  margin-bottom: 15px;
 }
 
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
@@ -32,7 +39,37 @@ div.customer {
   border-style: solid;
 }
 
-p {
+div.grey {
+  background-color: grey;
+  margin: 0px;
+}
+div.white {
+  margin: 40px;
+  background-color: white;
+}
+
+p h4 h1 {
   font-family: "Myriad Pro";
-  /*font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container h1 {
+  font-size: 36px;
+  font-family: "Myriad Pro";
+}
+
+p {
+  font-size: 14px;
+}
+
+.container h4 {
+  font-size: 21px;
+  font-weight: normal;
+  font-family: "Myriad Pro";
+}
+
+.container h3 {
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Myriad Pro";
 }
