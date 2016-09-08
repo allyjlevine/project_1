@@ -29,6 +29,10 @@ div.dashboard {
   margin-bottom: 15px;
 }
 
+div.dashboard.col-md-3 {
+  padding-left: 28px;
+}
+
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
   border-color: black;
   border: 2px;
@@ -39,13 +43,62 @@ div.customer {
   border-style: solid;
 }
 
-div.grey {
+div.container.grey {
   background-color: grey;
-  margin: 0px;
 }
 div.white {
   margin: 40px;
   background-color: white;
+}
+
+div.row.dashboard h1 {
+  padding-left: 3px;
+}
+div.row.announcements {
+  border-bottom: solid 1px grey;
+  height: 52px;
+}
+
+div.row.announcements p {
+  padding-left: 21px;
+}
+
+div.col-md-2.announcements {
+  border-right: solid 1px grey;
+}
+
+div.col-md-1.arrows {
+  border-left: solid 1px grey;
+}
+
+div.tasks {
+  margin-top: 23px;
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+div.tasks h4 {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 19px;
+  margin-top: 19px;
+}
+
+div.recommendations {
+  /*border-top: solid 1px grey;*/
+  margin-left: 8px;
+}
+
+div.recommendations h6 {
+  font-size: 10px;
+  color: #777777;
+  margin-bottom: 0px;
+}
+
+div.recommendations p {
+  font-size: 16px;
+  color: #777777;
+  border-bottom: 1px dotted lightgrey;
+  padding-bottom: 12px;
 }
 
 p h4 h1 {
@@ -56,6 +109,7 @@ p h4 h1 {
 .container h1 {
   font-size: 36px;
   font-family: "Myriad Pro";
+  color: white;
 }
 
 p {
@@ -72,4 +126,27 @@ p {
   font-size: 32px;
   font-weight: normal;
   font-family: "Myriad Pro";
+  color: #2498f4;
+}
+
+.col-md-4 h4 {
+  color: #2498f4;
+  padding-left: 20px;
+}
+
+.graph h3 {
+  margin-left: 40px;
+}
+.graph h5 {
+  color: grey;
+  font-weight: normal;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  margin-left: 53px;
+}
+
+div.didyouknow {
+  background-color: #2498f4;
+  height: 140px;
+  border-radius: 5px;
 }
