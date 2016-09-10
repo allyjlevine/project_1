@@ -18,22 +18,20 @@ div.header.container {
   margin-right: 70px;
 }
 
-.sprite-header-settings {
-  width: 20px;
-  height: 20px;
-  background-position: -1634px -1515px;
-  background-image: url(spritesheet.png);
-}
-
 nav.navbar {
   height: 100px;
   background-color: #134975;
 }
 
-.sprite-dashboard-customers {
-    width: 62px;
-    height: 42px;
-    background-position: -286px -1515px;
+.navbar ul {
+  margin: auto;
+  padding: 0;
+  list-style: none;
+  top: 0;
+}
+
+.navbar li {
+    display: inline-block;
 }
 
 div.dashboard {
