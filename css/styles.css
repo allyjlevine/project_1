@@ -4,13 +4,21 @@ font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetic
 
 div.header {
   background-color: #2191EA;
-  height: 44px;
+
 }
 
 .header p {
   font-family: "Myriad Pro";
   font-size: 14px;
   color: white;
+}
+
+ul.header {
+  list-style: none;
+}
+
+.header li {
+  display: inline-block;
 }
 
 div.header.container {

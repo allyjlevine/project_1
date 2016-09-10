@@ -182,45 +182,39 @@
     width: 62px;
     height: 42px;
     background-position: -286px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-dashboard-gauge {
+.sprite-dashboard-gauge {
     width: 58px;
     height: 58px;
     background-position: -358px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-dashboard-graph {
+.sprite-dashboard-graph {
     width: 42px;
     height: 50px;
     background-position: -426px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-dashboard-message {
+.sprite-dashboard-message {
     width: 57px;
     height: 48px;
     background-position: -478px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-dashboard-paper {
+.sprite-dashboard-paper {
     width: 45px;
     height: 50px;
     background-position: -545px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-dashboard-tag {
+.sprite-dashboard-tag {
     width: 50px;
     height: 50px;
     background-position: -600px -1515px;
-    background-image: url(../images/spritesheet.png);
 }
 
-.sprite, .sprite-didyouknow-left {
+.sprite-didyouknow-left {
     width: 21px;
     height: 27px;
     background-position: -660px -1515px;
