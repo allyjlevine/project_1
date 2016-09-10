@@ -30,10 +30,10 @@ nav.navbar {
   background-color: #134975;
 }
 
-#dashboard {
-  background-image: url(images/spritesheet.png);
-  background-repeat: no-repeat;
-  display: block;
+.sprite-dashboard-customers {
+    width: 62px;
+    height: 42px;
+    background-position: -286px -1515px;
 }
 
 div.dashboard {
