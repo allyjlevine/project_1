@@ -117,7 +117,18 @@ div.tasks h4 {
   border-bottom: 1px solid lightgrey;
   padding-bottom: 19px;
   margin-top: 19px;
-  margin-left: 25px;
+}
+
+div.welcome {
+  vertical-align: middle;
+}
+
+div.sprite-1-grey {
+  display: inline-block;
+}
+
+h4.welcome {
+  display: inline-block;
 }
 
 div.recommendations {
