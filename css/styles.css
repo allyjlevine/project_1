@@ -1,4 +1,4 @@
-p h1 h2 h3 h4 h5 {
+p h1 h2 h3 h4 h5 p.announcements {
 font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -52,6 +52,15 @@ div.dashboard.col-md-3 {
   padding-left: 28px;
 }
 
+div.search-box {
+  height: 75px;
+}
+
+.search-box span{
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
   border-color: black;
   border: 2px;
@@ -65,6 +74,7 @@ div.customer {
 div.container.grey {
   background-color: grey;
 }
+
 div.white {
   margin: 40px;
   background-color: white;
@@ -73,21 +83,28 @@ div.white {
 div.row.dashboard h1 {
   padding-left: 3px;
 }
+
 div.row.announcements {
   border-bottom: solid 1px grey;
   height: 52px;
 }
 
-div.row.announcements p {
+p.announcements {
   padding-left: 21px;
+  color: #fe7f13;
+  font-size: 14px;
 }
 
 div.col-md-2.announcements {
   border-right: solid 1px grey;
 }
 
-div.col-md-1.arrows {
+div.arrows {
   border-left: solid 1px grey;
+}
+
+.arrows span {
+  display: inline-block;
 }
 
 div.tasks {
@@ -100,6 +117,7 @@ div.tasks h4 {
   border-bottom: 1px solid lightgrey;
   padding-bottom: 19px;
   margin-top: 19px;
+  margin-left: 25px;
 }
 
 div.recommendations {
