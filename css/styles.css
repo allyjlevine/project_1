@@ -107,29 +107,50 @@ div.arrows {
   display: inline-block;
 }
 
+div.left {
+  padding: 0px;
+  border: none;
+}
+
 div.tasks {
   margin-top: 23px;
   margin-bottom: 20px;
-  margin-left: 8px;
 }
 
 div.tasks h4 {
-  border-bottom: 1px solid lightgrey;
-  padding-bottom: 19px;
-  margin-top: 19px;
+  margin-bottom: 23px;
+  margin-top: 30px;
+  margin-right: 5px;
+  padding-left: 10px;
 }
 
 div.welcome {
   vertical-align: middle;
+  align-items: baseline;
+  border-bottom: 1px solid lightgrey;
+  padding-right: 59px;
 }
 
 div.tasks-inline {
-  display: inline-block;
+  display: inline-flex;
 }
 
 div.user-number {
   border-style: solid;
-  width: inherit;
+  border-radius: 5px;
+  border-width: thin;
+  width: 60px;
+  height: 30px;
+  padding: 4px;
+  align-items: center;
+}
+div.users {
+  font-size: 16px;
+}
+
+
+div.sprite-person-grey {
+  margin-right: 5px;
 }
 
 div.recommendations {
