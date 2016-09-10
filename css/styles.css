@@ -123,12 +123,13 @@ div.welcome {
   vertical-align: middle;
 }
 
-div.sprite-1-grey {
+div.tasks-inline {
   display: inline-block;
 }
 
-h4.welcome {
-  display: inline-block;
+div.user-number {
+  border-style: solid;
+  width: inherit;
 }
 
 div.recommendations {
