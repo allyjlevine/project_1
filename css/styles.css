@@ -148,7 +148,6 @@ div.users {
   font-size: 16px;
 }
 
-
 div.sprite-person-grey {
   margin-right: 5px;
 }
@@ -156,6 +155,10 @@ div.sprite-person-grey {
 div.recommendations {
   /*border-top: solid 1px grey;*/
   margin-left: 8px;
+}
+
+div.rec-inline {
+  display: inline-flex;
 }
 
 div.recommendations h6 {
@@ -170,6 +173,8 @@ div.recommendations p {
   border-bottom: 1px dotted lightgrey;
   padding-bottom: 12px;
 }
+
+
 
 p h4 h1 {
   font-family: "Myriad Pro";

@@ -98,6 +98,8 @@
     width: 19px;
     height: 23px;
     background-position: -1476px -5px;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 .sprite-avatar-green {
@@ -164,6 +166,8 @@
     width: 23px;
     height: 20px;
     background-position: -185px -1515px;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 .sprite-circle-green {
@@ -356,6 +360,8 @@
     width: 14px;
     height: 23px;
     background-position: -2462px -1515px;
+    margin-top: 10px;
+    margin-right: 15px;
 }
 
 .sprite-userprofilepic {
