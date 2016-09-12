@@ -219,12 +219,12 @@ div.customer {
   display: inline-block;
   /*border: solid thin #e0e0e0;*/
   border-radius: 6px;
-  box-shadow: 0px 4px 11px -1px rgba(46,74,117,0.61);
+  box-shadow: 0px 3px 7px -1px rgba(46,74,117,0.61);
 }
 
 #bust {
   margin-bottom: -28px;
-  margin-top: -22px;
+  margin-top: -25px;
 }
 
 span.sprite-person-green, span.sprite-person-orange {
@@ -241,11 +241,19 @@ span.sprite-person-green, span.sprite-person-orange {
   color: white;
   text-align: center;
   padding: 10px;
+  margin-top: 10px;
+}
+
+#ribbon-left {
+  margin-left: -25px;
+  margin-top: -5px;
+  float: left;
 }
 
 #banner h4 {
   margin-top: 0px;
   margin-bottom: 5px;
+  display: inline-block;
 }
 
 #banner p {
@@ -253,8 +261,94 @@ span.sprite-person-green, span.sprite-person-orange {
   font-size: 11px;
 }
 
+#ribbon-right {
+  margin-right: -25px;
+  margin-top: -50px;
+  float: right;
+}
+
 #line-chart {
-  margin-top: 14px;
+  margin-top: 16px;
+}
+
+span.chart {
+  margin: auto;
+}
+
+#didyouknow {
+  margin: 20px auto 20px auto;
+  background-color: #2498f4;
+  height: 140px;
+  border-radius: 5px;
+  padding: 30px 40px 30px 40px;
+}
+
+#half-circle-left {
+  height:50px;
+  width:25px;
+  border-radius: 0px 90px 90px 0px;
+  background:white;
+  float:left;
+  margin-left: -40px;
+  margin-top: 15px;
+}
+
+#left-arrow {
+  margin-right: 12px;
+  margin-top: 16px;
+}
+
+#half-circle-right {
+  height:50px;
+  width:25px;
+  border-radius: 90px 0px 0px 90px;
+  background:white;
+  float:right;
+  margin-right: -40px;
+  margin-top: -75px;
+}
+
+#right-arrow {
+  margin-left: 12px;
+  margin-top: 16px;
+}
+
+#didyouknow p.title {
+  font-size: 13px;
+  margin-bottom: 0px;
+}
+
+#didyouknow p {
+  color: white;
+  font-size: 15px;
+}
+
+div.ads {
+  background-color: #2498f4;
+  padding: 15px 5px 15px 5px;
+}
+
+div.white-ad {
+  background-color: white;
+  margin: 15px;
+  height: 160px;
+  width: 280px;
+  border-radius: 5px;
+}
+
+#ad-green {
+  margin-right: auto;
+  margin-left: -15px;
+}
+
+#ad-people {
+  margin-left: -3px;
+  margin-top: -11px;
+}
+
+#ad-orange {
+  margin-left: auto;
+  margin-right: -15px;
 }
 
 /*#contacts {
@@ -263,7 +357,7 @@ span.sprite-person-green, span.sprite-person-orange {
   display: inline-block;
 }*/
 
-p h4 h1 {
+p, h4, h1, p.title, #didyouknow p{
   font-family: "Myriad Pro";
   font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

@@ -54,7 +54,7 @@
       <div class="col-md-3 search-form">
         <div class="search-box">
           <input type="text" name="search">
-          <span class="sprite sprite-search"/>
+          <span class="sprite sprite-search"></span>
         </div>
       </div>
     </div>
@@ -122,28 +122,28 @@
           </div>
           <div class="recommendations">
             <h3>Recommendations</h3>
-            <div class="rec-inline">
+            <div class="rec-inline rec-options">
               <div class="tasks-inline sprite sprite-article"></div>
               <div>
                 <h6>Article</h6>
                 <p>Steps to getting more Fans</p>
               </div>
             </div>
-            <div class="rec-inline">
+            <div class="rec-inline rec-options">
               <div class="tasks-inline sprite sprite-article"></div>
               <div>
                 <h6>Article</h6>
                 <p>Increase traction with more interactions</p>
               </div>
             </div>
-            <div class="rec-inline">
+            <div class="rec-inline rec-options">
               <div class="tasks-inline sprite sprite-checklist"></div>
               <div>
                 <h6>Checklist</h6>
                 <p>Creating a Promotion</p>
               </div>
             </div>
-            <div class="rec-inline">
+            <div class="rec-inline rec-options">
               <div class="rec-inline sprite sprite-tip"></div>
               <div>
                 <h6>Tip</h6>
@@ -152,39 +152,83 @@
             </div>
           </div>
         </div>
+
+    <!-- right column of content -->
         <div class="col-md-8 right">
+    <!-- analytics section with graph -->
           <div class="analytics">
-            <div class="col-md-8 graph">
+            <div class="col-md-10 graph">
               <h3>Analytics</h3>
               <h5>ACTIVITY</h5>
-              <p>Analytics</p>
-              <p>Analytics</p>
-              <p>Analytics</p>
-              <p>The last piece of analytics</p>
+              <div class="rec-inline sprite sprite-graph-analytics"></div>
             </div>
-            <div class="col-md-4 pie-charts">
-              o
+            <div class="col-md-2" id="pie-charts">
+              <h5>CHANNELS</h5>
+              <div class=" sprite sprite-channels"></div>
+              <h5>REFFERALS</h5>
+              <div class=" sprite sprite-pie-referrals"></div>
             </div>
           </div>
+          <div class="col-md-12" id="social-checkbox"> Facebook Twitter Google</div>
           <div class="col-md-12 customer">
-            <h4>Customer Contacts</h4>
-            <p>Analytics</p>
-            <p>Analytics</p>
+            <div class="col-md-6 banner-container">
+              <div id="customer">
+                <div id="bust">
+                  <span class="sprite sprite-person-green"></span>
+                </div>
+                <div id="banner">
+                    <span id="ribbon-left" class="sprite sprite-ribbon-left"></span>
+                    <h4>75 CONTACTS</h4>
+                    <p>4 INFLUENCERS</p>
+                    <span id="ribbon-right" class="sprite sprite-ribbon-right"></span>
+                </div>
+                <div id="line-chart">
+                  <span class="chart sprite sprite-chart-green"></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 banner-container">
+              <div id="contacts">
+                <div id="bust">
+                  <span class="sprite sprite-person-orange"></span>
+                </div>
+                <div id="banner">
+                  <span id="ribbon-left" class="sprite sprite-ribbon-left"></span>
+                  <h4>75 CONTACTS</h4>
+                  <p>4 INFLUENCERS</p>
+                  <span id="ribbon-right" class="sprite sprite-ribbon-right"></span>
+                </div>
+                <div id="line-chart">
+                  <span class="chart sprite sprite-chart-orange"></span>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-12 didyouknow">
-            Did you know
+          <div class="col-md-12">
+            <div id="didyouknow">
+              <div id="half-circle-left">
+                <span id="left-arrow"class="sprite sprite-arrow-left"></span>
+              </div>
+              <p class="title">DID YOU KNOW?</p>
+              <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+              <div id="half-circle-right">
+                <span id="right-arrow"class="sprite sprite-arrow-right"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row ads">
-        <div class="col-md-4">
-          ad
+      <div class="col-md-12 row ads">
+        <div class="col-md-4 white-ad">
+          <span id="ad-green"class="sprite sprite-ad-green"></span>
+          <p>Watch what you say.</p>
+          <p>Message Management</p>
         </div>
-        <div class="col-md-4">
-          ad
+        <div class="col-md-4 white-ad">
+          <span id="ad-people"class="sprite sprite-ad-people"></span>
         </div>
-        <div class="col-md-4">
-          ad
+        <div class="col-md-4 white-ad">
+          <span id="ad-orange"class="sprite sprite-ad-orange"></span>
         </div>
       </div>
     </div>
