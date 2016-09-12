@@ -76,7 +76,7 @@ div.search-box {
 }*/
 
 div.customer {
-  border-style: solid;
+  border-top: solid 1px #dddddd;
 }
 
 div.container.grey {
@@ -187,6 +187,10 @@ div.recommendations p {
   color: #777777;
   /*border-bottom: 1px dotted lightgrey;*/
   padding-bottom: 12px;
+}
+
+div.right {
+  border-left: solid 1px #dddddd;
 }
 
 #pie-charts h5 {
@@ -417,6 +421,7 @@ div.footer {
   box-shadow: 0px 0px 27px 2px rgba(46,74,117,0.33);
   /*padding: 20px 134px 20px 134px;*/
   height: 50px;
+  background-color: #f4f4f4;
 }
 
 .footer-text {
@@ -451,14 +456,44 @@ div.footer {
 .middle-col {
   border-right: solid 1px #dddddd;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  padding-left: 60pt;
+}
+
+span.blue {
+  color: #2498f2;
+  font-weight: 600;
+}
+
+.footer-middle {
+  margin-bottom: auto;
+  margin-top: 17px;
 }
 
 #arrow-down {
   display: inline-block;
   float: right;
+}
+
+.right-col {
+  height: 100%;
+}
+
+#user-logout {
+  height: 100%;
+  border-right: solid 1px #dddddd;
+}
+
+#profile-pic {
+  margin-left: -15px;
+}
+
+#logout {
+  padding-left: 51px;
+}
+
+#social {
+  border-right: solid 1px #dddddd;
+  height: 100%;
+  padding-top: 13px;
 }
 
 /*NOT WORKING.footer-middle {
