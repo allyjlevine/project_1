@@ -1,4 +1,4 @@
-p h1 h2 h3 h4 h5 p.announcements p.see {
+p, h1, h2, h3, h4, h5, p.announcements, p.see, #circle-number, div.users {
 font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -54,19 +54,30 @@ div.dashboard {
   background-color: #33cc66;
   border-radius: 7px;
   margin-bottom: 15px;
+  padding: 21px 28px 13px 19px;
 }
 
-div.dashboard.col-md-3 {
+/*div.dashboard.col-md-3 {
   padding-left: 28px;
-}
+}*/
 
 div.search-box {
-  height: 75px;
+  position: relative;
 }
 
 .search-box span{
   display: inline-block;
   vertical-align: middle;
+  position: absolute;
+  margin-left: 195px;
+  margin-top: 5px;
+}
+
+.search-bar {
+  width: 228px;
+  height: 31px;
+  border-radius: 3px;
+  border: solid 1px #2db55b;
 }
 
 /*.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
@@ -89,7 +100,7 @@ div.white {
 }
 
 div.row.dashboard h1 {
-  padding-left: 3px;
+  margin: 0px;
 }
 
 div.row.announcements {
@@ -101,14 +112,25 @@ p.announcements {
   padding-left: 21px;
   color: #fe7f13;
   font-size: 14px;
+  margin-top: 15px;
+}
+
+p.announcements-middle {
+   margin-top: 15px;
 }
 
 div.col-md-2.announcements {
-  border-right: solid 1px grey;
+  border-right: solid 1px #dddddd;
+  height: 100%;
 }
 
 div.arrows {
-  border-left: solid 1px grey;
+  border-left: solid 1px #dddddd;
+  height: 100%;
+}
+
+#arrow {
+  margin-top: 15px;
 }
 
 .arrows span {
@@ -140,6 +162,13 @@ div.welcome {
   width: 100%;
 }
 
+#circle-number {
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
 div.tasks-inline {
   display: inline-flex;
 }
@@ -149,16 +178,21 @@ div.user-number {
   border-radius: 5px;
   border-width: thin;
   width: 60px;
-  height: 30px;
-  padding: 4px;
+  height: 33px;
+  padding: 7px 7px 5px 7px;
   align-items: center;
   margin-left: auto;
 }
 div.users {
   font-size: 16px;
+  color: #2498f4;
 }
 
-div.sprite-person-grey {
+div.three {
+  padding-left: 5px;
+}
+
+div.sprite-person-blue {
   margin-right: 5px;
 }
 
