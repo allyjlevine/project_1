@@ -1,4 +1,4 @@
-p h1 h2 h3 h4 h5 p.announcements {
+p h1 h2 h3 h4 h5 p.announcements p.see {
 font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -328,7 +328,7 @@ div.ads {
   padding: 15px 5px 15px 5px;
 }
 
-div.white-ad {
+div.white-ad  {
   background-color: white;
   margin: 15px;
   height: 160px;
@@ -337,18 +337,78 @@ div.white-ad {
 }
 
 #ad-green {
+  /*background-image: url(../images/spritesheet.png);
+  background-position: -140px -5px;*/
   margin-right: auto;
   margin-left: -15px;
+}
+
+#ad-green-content {
+
+}
+
+p.watch {
+  font-size: 20px;
+  color: #33cc66;
+  text-align: right;
+  margin-right: -19px;
+  margin-bottom: -7px;
+}
+
+#top-of-content-green {
+  padding-top: 50px;
+}
+
+#message {
+  font-size: 14px;
+  color: #666666;
+  text-align: right;
+  margin-right: -19px;
+  margin-top: 10px;
 }
 
 #ad-people {
   margin-left: -3px;
   margin-top: -11px;
+  padding-right: 12px;
+}
+
+#ad-people-content {
+  background-color: #33cc66;
+  /*margin-right: 12px;*/
+  vertical-align: middle;
+  margin-top: 77px;
+  display: inline-block;
+  width: 100%;
+  margin-right: 12px;
+  padding:7px;
+  border-radius: 5px;
+}
+
+p.see {
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
 }
 
 #ad-orange {
   margin-left: auto;
   margin-right: -15px;
+}
+
+#ad-orange-content {
+  color: #fe7f13;
+}
+
+p.version {
+  font-size: 20px;
+  margin-left: -36px;
+  margin-bottom: -7px;
+}
+
+#top-of-content-orange {
+  padding-top: 50px;
 }
 
 /*#contacts {
