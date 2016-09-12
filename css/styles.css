@@ -31,15 +31,23 @@ nav.navbar {
   background-color: #134975;
 }
 
+/*nav.navbar.container {
+  display: flex;
+  justify-content: center;
+}*/
+
 .navbar ul {
   margin: auto;
-  padding: 0;
+  padding: 10px;
   list-style: none;
-  top: 0;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar li {
     display: inline-block;
+    padding-left: 10px;
 }
 
 div.dashboard {
@@ -61,11 +69,11 @@ div.search-box {
   vertical-align: middle;
 }
 
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
+/*.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-9 {
   border-color: black;
   border: 2px;
   border-style: solid;
-}
+}*/
 
 div.customer {
   border-style: solid;
@@ -128,7 +136,8 @@ div.welcome {
   vertical-align: middle;
   align-items: baseline;
   border-bottom: 1px solid lightgrey;
-  padding-right: 59px;
+  padding-right: 11px;
+  width: 100%;
 }
 
 div.tasks-inline {
@@ -143,6 +152,7 @@ div.user-number {
   height: 30px;
   padding: 4px;
   align-items: center;
+  margin-left: auto;
 }
 div.users {
   font-size: 16px;
@@ -161,6 +171,11 @@ div.rec-inline {
   display: inline-flex;
 }
 
+div.rec-options {
+  border-bottom: 1px dotted lightgrey;
+  width: 100%;
+}
+
 div.recommendations h6 {
   font-size: 10px;
   color: #777777;
@@ -170,11 +185,83 @@ div.recommendations h6 {
 div.recommendations p {
   font-size: 16px;
   color: #777777;
-  border-bottom: 1px dotted lightgrey;
+  /*border-bottom: 1px dotted lightgrey;*/
   padding-bottom: 12px;
 }
 
+#pie-charts h5 {
+  color: grey;
+  font-weight: normal;
+  font-family: "Myriad Pro";
+  font-size: 13px;
+  text-align: left;
+  margin-top: 19px;
+  margin-bottom: 11px;
+}
 
+#social-checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+div.banner-container {
+  padding: 45px;
+}
+
+div.customer {
+  display: flex;
+  justify-content: center;
+}
+
+#customer, #contacts {
+  width: 210px;
+  height: 197px;
+  display: inline-block;
+  /*border: solid thin #e0e0e0;*/
+  border-radius: 6px;
+  box-shadow: 0px 4px 11px -1px rgba(46,74,117,0.61);
+}
+
+#bust {
+  margin-bottom: -28px;
+  margin-top: -22px;
+}
+
+span.sprite-person-green, span.sprite-person-orange {
+  margin: 0 auto;
+}
+
+#holder {
+  height: 41px;
+}
+
+#banner {
+  background-color: #2498f4;
+  height: 50px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#banner h4 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+#banner p {
+  margin-top: -8px;
+  font-size: 11px;
+}
+
+#line-chart {
+  margin-top: 14px;
+}
+
+/*#contacts {
+  width: 210px;
+  height: 197px;
+  display: inline-block;
+}*/
 
 p h4 h1 {
   font-family: "Myriad Pro";
@@ -217,7 +304,7 @@ p {
   font-weight: normal;
   font-family: "Myriad Pro";
   font-size: 13px;
-  margin-left: 53px;
+  /*margin-left: 53px;*/
 }
 
 div.didyouknow {
