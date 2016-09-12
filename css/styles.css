@@ -326,6 +326,8 @@ span.chart {
 div.ads {
   background-color: #2498f4;
   padding: 15px 5px 15px 5px;
+  display: flex;
+  justify-content: center;
 }
 
 div.white-ad  {
