@@ -305,6 +305,10 @@ div.rec-inline {
   display: inline-flex;
 }
 
+.chart-graph {
+  margin-left: 17px;
+}
+
 div.rec-options {
   border-bottom: 1px dotted lightgrey;
   width: 100%;
@@ -756,7 +760,7 @@ p {
 
 #button {
   background-color: white;
-  
+
 }
 
 
@@ -806,4 +810,67 @@ margin-top:-4px;
 
 /*display:inline-block;
 padding: 0 0 0 0px;*/
+}
+
+@media only screen and (max-width: 400px) {
+    .chart-graph {
+      margin-left: 0px;
+      width: 100%;
+    }
+
+    #graph-content {
+      border-right: none;
+    }
+
+    div.customer {
+      display: inline-block;
+    }
+
+    div.ads {
+      display: inline-block;
+    }
+
+    .navbar li {
+      margin-right: 10px;
+    }
+
+    #didyouknow {
+      height: 188px;
+    }
+
+    .left-col {
+      padding-left: 0;
+      border-right: none;
+    }
+
+    .footer-middle {
+      text-align: center;
+    }
+
+    .middle-col {
+      border-right: none;
+    }
+
+    #user-logout {
+      border-right: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    #social {
+      border-right: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    div.arrows {
+      display: flex;
+      justify-content: center;
+    }
+
+    p.announcements-middle, p.announcements {
+      text-align: center;
+      padding-left: 0px;
+    }
+
 }
