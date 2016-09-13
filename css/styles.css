@@ -17,8 +17,23 @@ ul.header {
   list-style: none;
 }
 
-.header li {
+div.header-content {
+  padding-right: 10px;
+  height: 100%;
+}
+
+div.header-inside {
   display: inline-block;
+  border-right: solid #1c85d8 1px;
+}
+
+.header-inside p {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+#header-button {
+  margin-right: 8px;
 }
 
 div.header.container {
@@ -27,14 +42,22 @@ div.header.container {
 }
 
 nav.navbar {
-  height: 100px;
+  height: 110px;
   background-color: #134975;
+  width: 100%;
+  border-radius: 0;
 }
 
 /*nav.navbar.container {
   display: flex;
   justify-content: center;
 }*/
+
+img.shadow {
+  width: 56px;
+  height: 6px;
+  margin-top: 61px;
+}
 
 .navbar ul {
   margin: auto;
@@ -45,14 +68,49 @@ nav.navbar {
   justify-content: center;
 }
 
+
 .navbar li {
     display: inline-block;
-    padding-left: 10px;
+    margin-right: 36px;
+    margin-top: 19px;
+}
+
+li.gear-special {
+  margin-top: 15px;
+}
+
+img.shad-gear-special {
+  margin-top: 65px;
+}
+
+.sprite-gear-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -358px -1515px;
+}
+
+.sprite-customers-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -286px -1515px;
+}
+
+.sprite-messages-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -478px -1515px;
 }
 
 .sprite-tag-green:hover {
   background-image: url(../images/spritesheet.png);
   background-position: -600px -1515px;
+}
+
+.sprite-page-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -545px -1515px;
+}
+
+.sprite-analytics-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -426px -1515px;
 }
 
 
@@ -104,12 +162,21 @@ div.container.grey {
 }
 
 div.white {
-  margin: 40px;
+  background-color: white;
   /*border-width: 15px;
     border-style: solid;
     border-image: linear-gradient(to bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;*/
 }
 
+#gradient {
+  background: #fff;
+  background: -webkit-linear-gradient(#f6f6f6, white, white);
+  background: -o-linear-gradient(#f6f6f6, white, white);
+  background: -moz-linear-gradient(#f6f6f6, white, white);
+  background: linear-gradient(#f6f6f6, white, white);
+  border-radius: 10px;
+  padding: 1em 2em 0 2em;
+}
 
 div.row.dashboard h1 {
   margin: 0px;
@@ -135,6 +202,7 @@ p.announcements {
 
 p.announcements-middle {
    margin-top: 15px;
+   color: #777777;
 }
 
 div.col-md-2.announcements {
@@ -169,6 +237,10 @@ div.tasks {
   margin-bottom: 20px;
 }
 
+div.tasks h3 {
+  padding-left: 25px;
+}
+
 div.tasks h4 {
   margin-bottom: 23px;
   margin-top: 30px;
@@ -182,6 +254,7 @@ div.welcome {
   border-bottom: 1px solid lightgrey;
   padding-right: 11px;
   width: 100%;
+  padding-left: 15px;
 }
 
 #circle-number {
@@ -224,6 +297,10 @@ div.recommendations {
   margin-left: 8px;
 }
 
+div.recommendations h3 {
+  padding-left: 25px;
+}
+
 div.rec-inline {
   display: inline-flex;
 }
@@ -231,6 +308,8 @@ div.rec-inline {
 div.rec-options {
   border-bottom: 1px dotted lightgrey;
   width: 100%;
+  padding-left: 10px;
+  padding-top: 5px;
 }
 
 div.recommendations h6 {
@@ -418,7 +497,7 @@ span.chart {
   background:white;
   float:right;
   margin-right: -40px;
-  margin-top: -75px;
+  margin-top: -61px;
 }
 
 #right-arrow {
@@ -668,7 +747,18 @@ p {
   padding-left: 33px;
   margin-top: 20px;
   margin-bottom: 25px;
+  display: inline-flex;
 }
+
+.btn-group {
+  margin-left: 300px;
+}
+
+#button {
+  background-color: white;
+  
+}
+
 
 .graph h5 {
   color: grey;
