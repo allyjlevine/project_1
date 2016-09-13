@@ -8,8 +8,10 @@
   <title>MINI of Raleigh</title>
 
   <!-- Bootstrap -->
-  <link href="images/stylesheet.css" rel="stylesheet">
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="images/stylesheet.css" rel="stylesheet">
+  <link href="images/stylesheet_menu.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -23,7 +25,7 @@
         <li class="sprite sprite-header-help">
           <a href="#help"></a>
         </li>
-        <li class="sprite sprite-header-settings">
+        <li class="sprite-2 sprite-icon-settings">
           <a href="#settings"></a>
         </li>
       </ul>
@@ -32,12 +34,12 @@
   <nav class="navbar">
     <div class= "navbar container">
       <ul>
-        <li class="sprite sprite-dashboard-tag"><a href="#home"></a></li>
-        <li class="sprite sprite-dashboard-gauge"><a href="#home"></a></li>
-        <li class="sprite sprite-dashboard-customers"><a href="#home"></a></li>
-        <li class="sprite sprite-dashboard-message"><a href="#home"></a></li>
-        <li class="sprite sprite-dashboard-paper"><a href="#home"></a></li>
-        <li class="sprite sprite-dashboard-graph"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-tag-green"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-gear-green"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-customers-green"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-messages-green"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-page-green"><a href="#home"></a></li>
+        <li class="sprite-2 sprite-analytics-green"><a href="#home"></a></li>
       </ul>
     </div>
   </nav>
@@ -60,6 +62,7 @@
     </div>
     <!-- <div class="container grey"> -->
     <div class="container white">
+      <!-- <span class="sprite sprite-background-shadow"> -->
       <div class= "row announcements">
         <div class="col-md-2 announcements">
           <p class="announcements">ANNOUNCEMENTS</p>
@@ -176,13 +179,16 @@
             </div>
           </div>
           <div class="col-md-12" id="social-checkbox">
-            <span id="checkbox-empty" class="sprite sprite-checkbox"></span>
+            <input type='checkbox' name='fb' value='unchecked' id="fb"/><label for="fb"></label>
             <div id="facebook"class="social-labels">Facebook</div>
-            <span id="checkbox-empty" class="sprite sprite-checkbox"></span>
+
+            <input type='checkbox' name='tw' value='unchecked' id="tw"/><label for="tw"></label>
             <div id="twitter"class="social-labels">Twitter</div>
-            <span id="checkbox-empty" class="sprite sprite-checkbox"></span>
+
+            <input type='checkbox' name='fs' value='unchecked' id="fs"/><label for="fs"></label>
             <div id="foursquare"class="social-labels">Foursquare</div>
-            <span id="checkbox-empty" class="sprite sprite-checkbox"></span>
+
+            <input type='checkbox' name='gp' value='unchecked' id="gp"/><label for="gp"></label>
             <div id="google"class="social-labels">Google +</div>
           </div>
           <div class="col-md-12 customer">
@@ -232,6 +238,7 @@
             </div>
           </div>
         </div>
+      <!-- </span> -->
       </div>
       <div class="col-md-12 row ads">
         <div class="col-md-4 white-ad">
@@ -276,7 +283,7 @@
     <div id="footer-text"class="col-md-6 middle-col">
       <div class="footer-middle">
         <p class=""><span class="blue">Ariel Cooper</span> likes your <span class="blue">Win A Cooper Sweepstakes</span> Promotion
-          <span id="arrow-down"class="sprite sprite-down-arrow">
+          <span id="arrow-up"class="sprite-2 sprite-pullup">
           </div>
         </div>
         <div class="col-md-3 right-col">

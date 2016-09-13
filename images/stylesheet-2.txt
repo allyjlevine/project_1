@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Avatar {
+    width: 40px;
+    height: 40px;
+    background-position: -5px -5px;
+}
+
+.sprite-Icon_-Page-Creator {
+    width: 45px;
+    height: 50px;
+    background-position: -55px -5px;
+}
+
+.sprite-Icon_-Promotions {
+    width: 50px;
+    height: 50px;
+    background-position: -110px -5px;
+}
+
+.sprite-Icon_-Settings {
+    width: 20px;
+    height: 20px;
+    background-position: -5px -65px;
+}
+
+.sprite-PullUp {
+    width: 14px;
+    height: 9px;
+    background-position: -35px -65px;
+}
+
+.sprite-analytics-green {
+    width: 42px;
+    height: 50px;
+    background-position: -59px -65px;
+}
+
+.sprite-customers-green {
+    width: 62px;
+    height: 42px;
+    background-position: -170px -5px;
+}
+
+.sprite-facebook {
+    width: 16px;
+    height: 16px;
+    background-position: -170px -57px;
+}
+
+.sprite-foursquare {
+    width: 16px;
+    height: 16px;
+    background-position: -196px -57px;
+}
+
+.sprite-gear-green {
+    width: 58px;
+    height: 58px;
+    background-position: -111px -83px;
+}
+
+.sprite-messages-green {
+    width: 57px;
+    height: 48px;
+    background-position: -179px -83px;
+}
+
+.sprite-twitter {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -141px;
+}
+
+.sprite-youtube {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -141px;
+}

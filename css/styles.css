@@ -50,12 +50,19 @@ nav.navbar {
     padding-left: 10px;
 }
 
+.sprite-tag-green:hover {
+  background-image: url(../images/spritesheet.png);
+  background-position: -600px -1515px;
+}
+
+
 div.dashboard {
   background-color: #33cc66;
   border-radius: 7px;
   margin-bottom: 15px;
   padding: 21px 28px 13px 19px;
 }
+
 
 /*div.dashboard.col-md-3 {
   padding-left: 28px;
@@ -86,6 +93,8 @@ div.search-box {
   border-style: solid;
 }*/
 
+
+
 div.customer {
   border-top: solid 1px #dddddd;
 }
@@ -96,15 +105,24 @@ div.container.grey {
 
 div.white {
   margin: 40px;
-  background-color: white;
+  /*border-width: 15px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #dddddd, rgba(0, 0, 0, 0)) 1 100%;*/
 }
+
 
 div.row.dashboard h1 {
   margin: 0px;
 }
 
+img.sprite-background-shadow {
+  background:
+}
+
 div.row.announcements {
-  border-bottom: solid 1px #dddddd;
+  border-top: solid 1px #dddddd;
+  border-left: solid 1px #dddddd;
+  border-right: solid 1px #dddddd;
   height: 52px;
 }
 
@@ -135,6 +153,10 @@ div.arrows {
 
 .arrows span {
   display: inline-block;
+}
+
+div.row.content {
+  border: solid 1px #dddddd;
 }
 
 div.left {
@@ -176,7 +198,8 @@ div.tasks-inline {
 div.user-number {
   border-style: solid;
   border-radius: 5px;
-  border-width: thin;
+  border-width: 1px;
+  border-color: #dddddd;
   width: 60px;
   height: 33px;
   padding: 7px 7px 5px 7px;
@@ -225,6 +248,8 @@ div.recommendations p {
 
 div.right {
   border-left: solid 1px #dddddd;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 #pie-charts {
@@ -250,6 +275,18 @@ div.right {
 
 #checkbox-empty {
   padding-right: 24px;
+}
+
+input:checked{
+  width:100vw;
+}
+
+a:active {
+  padding-right: 24px;
+  width: 22px;
+  height: 21px;
+  background-position: -97px -1515px;
+  background-image: url(../images/spritesheet.png);
 }
 
 div.social-labels {
@@ -540,9 +577,10 @@ span.blue {
   margin-top: 17px;
 }
 
-#arrow-down {
+#arrow-up {
   display: inline-block;
   float: right;
+  margin-top: 4px;
 }
 
 .right-col {
@@ -644,4 +682,38 @@ div.didyouknow {
   background-color: #2498f4;
   height: 140px;
   border-radius: 5px;
+}
+
+/*checkbox stuff*/
+
+input[type=checkbox] {
+display:none;
+}
+
+input[type=checkbox] + label
+{
+
+width: 18px;
+height: 18px;
+background-position: -129px -1515px;
+background-image: url(../images/spritesheet.png);
+background-repeat: no-repeat;
+display: block;
+margin-right: 5px;
+/*display:inline-block;
+padding: 0 0 0 0px;*/
+}
+
+input[type=checkbox]:checked + label
+{
+  background-image: url(../images/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+width: 25px;
+height: 22px;
+background-position: -1505px -5px;
+margin-top:-4px;
+
+/*display:inline-block;
+padding: 0 0 0 0px;*/
 }
